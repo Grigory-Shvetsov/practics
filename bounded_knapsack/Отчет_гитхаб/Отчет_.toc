@@ -1,0 +1,14 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\textbf {\ignorespaces {Введение}}}{3}{section*.1}%
+\contentsline {section}{\numberline {\hbox to 0pt{\hss }{{\textbf {1.\ }}}}{{\textbf {\ignorespaces {Постановка задачи}}}}}{4}{section*.3}%
+\contentsline {section}{\numberline {\hbox to 0pt{\hss }{{\textbf {2.\ }}}}{{\textbf {\ignorespaces {Метод ветвей и границ}}}}}{4}{section*.4}%
+\contentsline {section}{\numberline {\hbox to 0pt{\hss }{{\textbf {3.\ }}}}{{\textbf {\ignorespaces {Реализация метода ветвей и границ}}}}}{7}{section*.5}%
+\contentsline {subsection}{\numberline {\hbox to 0pt{\hss }{{3.1.\ }}}{\ignorespaces {Особенности реализации на языке C++}}}{7}{section*.6}%
+\contentsline {subsection}{\numberline {\hbox to 0pt{\hss }{{3.2.\ }}}{\ignorespaces {Особенности реализации на Wolfram Mathematica}}}{7}{section*.7}%
+\contentsline {section}{\numberline {\hbox to 0pt{\hss }{{\textbf {4.\ }}}}{{\textbf {\ignorespaces {Метод динамического программирования}}}}}{7}{section*.8}%
+\contentsline {section}{\numberline {\hbox to 0pt{\hss }{{\textbf {5.\ }}}}{{\textbf {\ignorespaces {Реализация метода динамического программирования}}}}}{9}{section*.9}%
+\contentsline {subsection}{\numberline {\hbox to 0pt{\hss }{{5.1.\ }}}{\ignorespaces {Особенности реализации на языке C++}}}{9}{section*.10}%
+\contentsline {subsection}{\numberline {\hbox to 0pt{\hss }{{5.2.\ }}}{\ignorespaces {Особенности реализации на Wolfram Mathematica}}}{9}{section*.11}%
+\contentsline {section}{\numberline {\hbox to 0pt{\hss }{{\textbf {6.\ }}}}{{\textbf {\ignorespaces {Примеры работы программ}}}}}{9}{section*.12}%
+\contentsline {section}{\textbf {\ignorespaces {Заключение}}}{9}{section*.13}%
+\contentsline {section}{\textbf {\ignorespaces {Список использованных источников}}}{9}{section*.15}%

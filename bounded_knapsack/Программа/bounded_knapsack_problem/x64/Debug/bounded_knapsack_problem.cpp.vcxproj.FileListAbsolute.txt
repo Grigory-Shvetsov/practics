@@ -1,0 +1,2 @@
+C:\Users\griho\OneDrive\Рабочий стол\4 семестр\Практика\Программа\bounded_knapsack_problem.cpp\x64\Debug\bounded_knapsack_problem.cpp.exe
+C:\Users\griho\OneDrive\Рабочий стол\4 семестр\Практика\Программа\bounded_knapsack_problem\x64\Debug\bounded_knapsack_problem.cpp.exe

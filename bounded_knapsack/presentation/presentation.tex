@@ -1,0 +1,147 @@
+\documentclass[ignoreonframetext,unicode]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{cmap}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx,pgf}
+\usepackage{multimedia}
+
+\graphicspath{{./figures/}{../report/figures/}}
+
+\usetheme{Warsaw}
+
+\useinnertheme{circles}   %внутренняя тема
+%\useoutertheme{smoothbars}   %внешняя тема
+\usecolortheme{seahorse}     %цветовая схема
+%\usefonttheme{serif}    %шрифты
+%\defbeamertemplate*{footline}{shadow theme}
+%\setbeameroption{hide notes}
+
+%номера слайдов
+\newcommand*\oldmacro{}%
+\let\oldmacro\insertshorttitle%
+\renewcommand*\insertshorttitle{%
+	\oldmacro\hfill%
+	\insertframenumber\,/\,\inserttotalframenumber}
+\RequirePackage{caption}
+\DeclareCaptionLabelSeparator{defffis}{ }
+\captionsetup{justification=centering,labelsep=defffis}
+
+\institute[каф. Прикладная математика ФН-2]{группа ФН2-42Б}
+\date{\today}
+\titlegraphic{\includegraphics[width=2cm]{emblema.pdf}}
+%\renewcommand{\vec}[1]{\text{\mathversion{bold}${#1}$}}
+
+\title[Задача об ограниченном ранце]{Задача об ограниченном ранце. Метод ветвей и~границ, динамическое программирование}
+\author[Абрамов З.\,И., Швецов Г.\,A.]{Абрамов З.\,И.\and\\[0.5mm] Швецов Г.\,А.}
+
+\frenchspacing
+\righthyphenmin=2
+
+\usepackage{comment}
+
+\begin{comment}
+	Красивый блок с заголовком title (если он пустой, то заголовка не будет)
+	\begin{block}{title}
+		содержимое...
+	\end{block}
+\end{comment}
+
+\begin{comment}
+	Колонки
+	https://latex-beamer.com/tutorials/columns/
+	
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			содержимое...
+		\end{column}
+		
+		\begin{column}{0.5\textwidth}
+			содержимое...
+		\end{column}
+	\end{columns}
+	
+	Отступ можно сделать добавив третью колонку между ними (тут же можно сделать разделитель):
+	\begin{column}{0.01\textwidth}
+		%\rule{.1mm}{0.7\textheight}
+	\end{column}
+	
+\end{comment}
+
+\begin{comment}
+	Другие команды:
+	\begin{center}
+		содержимое...
+	\end{center}
+	\includegraphics[width=0.5\textwidth]{image_name.png}
+	
+	Какие-то команды:
+	\frametitle{explanation}
+\end{comment}
+
+% Выравнивание по ширине
+\usepackage{ragged2e}
+\justifying
+
+\parindent=0.5cm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+
+	\begin{frame}{Постановка задачи}
+		Задача об ограниченном рюкзаке формулируется следующим образом:
+		
+		Пусть имеется $n$ типов предметов. Каждый тип предмета $i$ характеризуется весом $w_i$ и стоимостью $c_i$ одного предмета и количеством предметов $k_i$ данного типа. Также имеется рюкзак вместимости $W$.
+		
+		Требуется собрать набор с максимальной полезностью таким образом, чтобы он имел вместимость не больше $W$. При этом количество предметов типа $i$ не должно превышать $k_i$.
+		
+		В математической форме:
+		\begin{gather*}
+			\sum_{i=1}^{n} c_i x_i \to \max \\
+			\sum_{i=1}^{n} w_i x_i \leqslant W \\
+			\forall i\in\{1,\dots,n\} \quad x_i \in \{0,\dots, k_i\}
+		\end{gather*}
+	\end{frame}
+
+	\begin{frame}{Метод ветвей и границ}
+		содержимое...
+	\end{frame}
+
+	% TODO другие слайды
+
+	\begin{frame}{Динамическое программирование}
+		содержимое...
+	\end{frame}
+
+	% TODO другие слайды
+
+	\begin{frame}{Пример работы}
+		% TODO пара примеров, один с одним решением, второй - с двумя, чтобы показать, что метод ветвей и границ ищет все решения, а ДП - только одно
+		содержимое...
+	\end{frame}
+
+	% TODO время исполнения зависит еще от максимального веса
+	\begin{frame}{Сравнение времени исполнения на C++}
+		содержимое...
+	\end{frame}
+
+	\begin{frame}{Сравнение времени исполнения на Wolfram Mathematica}
+		содержимое...
+	\end{frame}
+
+	% TODO номально оформить или удалить
+	\begin{frame}
+		Спасибо за внимание
+	\end{frame}
+
+\end{document}

@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\griho\OneDrive\Рабочий стол\4 семестр\Практика\Программа\bounded_knapsack_problem.cpp\main.cpp : fatal error C1041: невозможно открыть базу данных программы C:\Users\griho\OneDrive\Рабочий стол\4 семестр\Практика\Программа\bounded_knapsack_problem.cpp\Debug\vc142.pdb; если несколько файлов CL.EXE осуществляют запись в один и тот же PDB-файл, воспользуйтесь /FS
