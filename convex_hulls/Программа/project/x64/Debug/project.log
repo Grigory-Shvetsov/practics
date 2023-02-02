@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\griho\OneDrive\Рабочий стол\Практика\Программа\project\RandomFile.cpp(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\griho\OneDrive\Рабочий стол\Практика\Программа\project\RandomFile.cpp(28,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  project.vcxproj -> C:\Users\griho\OneDrive\Рабочий стол\Практика\Программа\project\x64\Debug\main.exe

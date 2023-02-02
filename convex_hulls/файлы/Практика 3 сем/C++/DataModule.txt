@@ -1,0 +1,19 @@
+#ifndef DataStructures
+#define DataStructures
+
+#define FILE_COORDINATES_PATH "/Users/..."
+
+#define FILE_SAVE_PATH_BRUTE_FORCE "/Users/..."
+
+#define FILE_SAVE_PATH_KIRKPATRICK_SEIDEL "/Users/..."
+
+#include <iostream>
+#include <vector>
+#include "PointPair.cpp"
+#include "HandleFiles.cpp"
+using namespace std;
+
+enum Result { isEmpty, isFilled };
+enum PointPosition { oneSide, otherSide, within };
+
+#endif
